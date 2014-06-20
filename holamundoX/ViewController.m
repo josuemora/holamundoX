@@ -26,4 +26,26 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)botonAlerta:(id)sender {
+    NSLog(@"Hola Mundo");
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Titulo Principal" message:@"Hola Mundo" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+
+}
+
+- (IBAction)botonVaca:(id)sender {
+    SystemSoundID soundID;
+    NSString *soundFile=[[NSBundle mainBundle]
+                         pathForResource:@"cow" ofType:@"wav"];
+
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)
+                                     [NSURL fileURLWithPath: soundFile], & soundID);
+    
+    
+    AudioServicesPlaySystemSound(soundID);
+    
+   
+    
+    
+}
 @end

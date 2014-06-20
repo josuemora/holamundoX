@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AudioToolbox/AudioToolbox.h"
 
 @interface ViewController : UIViewController
+- (IBAction)botonAlerta:(id)sender;
+- (IBAction)botonVaca:(id)sender;
+
 
 @end

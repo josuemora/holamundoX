@@ -21,6 +21,9 @@
 		3817F66B192E8A5C0007FCF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3817F64D192E8A5C0007FCF7 /* UIKit.framework */; };
 		3817F673192E8A5C0007FCF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3817F671192E8A5C0007FCF7 /* InfoPlist.strings */; };
 		3817F675192E8A5C0007FCF7 /* holamundoXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3817F674192E8A5C0007FCF7 /* holamundoXTests.m */; };
+		38440200192F960600413226 /* cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 384401FF192F960600413226 /* cow.png */; };
+		38440202192F961300413226 /* cow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 38440201192F961300413226 /* cow.wav */; };
+		38440204192F964500413226 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38440203192F964500413226 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		3817F670192E8A5C0007FCF7 /* holamundoXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "holamundoXTests-Info.plist"; sourceTree = "<group>"; };
 		3817F672192E8A5C0007FCF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3817F674192E8A5C0007FCF7 /* holamundoXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = holamundoXTests.m; sourceTree = "<group>"; };
+		384401FF192F960600413226 /* cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cow.png; sourceTree = "<group>"; };
+		38440201192F961300413226 /* cow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cow.wav; sourceTree = "<group>"; };
+		38440203192F964500413226 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38440204192F964500413226 /* AudioToolbox.framework in Frameworks */,
 				3817F64C192E8A5C0007FCF7 /* CoreGraphics.framework in Frameworks */,
 				3817F64E192E8A5C0007FCF7 /* UIKit.framework in Frameworks */,
 				3817F64A192E8A5C0007FCF7 /* Foundation.framework in Frameworks */,
@@ -101,6 +108,7 @@
 		3817F648192E8A5C0007FCF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				38440203192F964500413226 /* AudioToolbox.framework */,
 				3817F649192E8A5C0007FCF7 /* Foundation.framework */,
 				3817F64B192E8A5C0007FCF7 /* CoreGraphics.framework */,
 				3817F64D192E8A5C0007FCF7 /* UIKit.framework */,
@@ -112,6 +120,9 @@
 		3817F64F192E8A5C0007FCF7 /* holamundoX */ = {
 			isa = PBXGroup;
 			children = (
+				38C06F38192F9A03004F760B /* iPad */,
+				38440201192F961300413226 /* cow.wav */,
+				384401FF192F960600413226 /* cow.png */,
 				3817F658192E8A5C0007FCF7 /* AppDelegate.h */,
 				3817F659192E8A5C0007FCF7 /* AppDelegate.m */,
 				3817F65B192E8A5C0007FCF7 /* Main.storyboard */,
@@ -150,6 +161,13 @@
 				3817F671192E8A5C0007FCF7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38C06F38192F9A03004F760B /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +248,9 @@
 			files = (
 				3817F662192E8A5C0007FCF7 /* Images.xcassets in Resources */,
 				3817F654192E8A5C0007FCF7 /* InfoPlist.strings in Resources */,
+				38440202192F961300413226 /* cow.wav in Resources */,
 				3817F65D192E8A5C0007FCF7 /* Main.storyboard in Resources */,
+				38440200192F960600413226 /* cow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +399,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "holamundoX/holamundoX-Prefix.pch";
 				INFOPLIST_FILE = "holamundoX/holamundoX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +414,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "holamundoX/holamundoX-Prefix.pch";
 				INFOPLIST_FILE = "holamundoX/holamundoX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +480,7 @@
 				3817F67A192E8A5C0007FCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3817F67B192E8A5C0007FCF7 /* Build configuration list for PBXNativeTarget "holamundoXTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +489,7 @@
 				3817F67D192E8A5C0007FCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
