@@ -53,6 +53,8 @@
     UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Btn jmora" message:@"Hola Mundo" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
     [Alert show];
     
+    //una linea nueva 12:31
+    
     
 }
 
