@@ -12,6 +12,6 @@
 @interface ViewController : UIViewController
 - (IBAction)botonAlerta:(id)sender;
 - (IBAction)botonVaca:(id)sender;
-
+- (IBAction)btnlmariscal:(id)sender;
 
 @end

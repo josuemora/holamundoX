@@ -48,4 +48,10 @@
     
     
 }
+
+- (IBAction)btnlmariscal:(id)sender {
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Titulo Principal" message:@"Hola Mundo" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+    
+}
 @end
