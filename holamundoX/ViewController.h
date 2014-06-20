@@ -12,7 +12,10 @@
 @interface ViewController : UIViewController
 - (IBAction)botonAlerta:(id)sender;
 - (IBAction)botonVaca:(id)sender;
+- (IBAction)botonCesar:(id)sender;
 
 - (IBAction)btnjmora:(id)sender;
+
+- (IBAction)BotonLG:(id)sender;
 
 @end

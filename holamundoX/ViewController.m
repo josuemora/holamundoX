@@ -33,6 +33,21 @@
 
 }
 
+- (IBAction)botonCesar:(id)sender {
+    NSLog(@"Boton de Cesar");
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Titulo Principal" message:@"Mi boton Cesar" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+    
+}
+
+- (IBAction)BotonLG:(id)sender {
+    NSLog(@"Boton de LG");
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Titulo Principal" message:@"Buenos Dias" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+    
+    
+}
+
 - (IBAction)botonVaca:(id)sender {
     SystemSoundID soundID;
     NSString *soundFile=[[NSBundle mainBundle]
@@ -43,8 +58,6 @@
     
     
     AudioServicesPlaySystemSound(soundID);
-    
-   
     
     
 }
