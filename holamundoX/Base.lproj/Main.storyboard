@@ -48,11 +48,22 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTB-uM-bFI">
                                 <rect key="frame" x="100" y="193" width="120" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Boton josue">
+                                <state key="normal" title="Boton Cesar">
+                                    <color key="titleColor" red="0.18337484117636593" green="0.6923785819065631" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="btnjmora:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fVV-X8-PqJ"/>
+                                    <action selector="botonCesar:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rRh-7W-siE"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lek-N4-NfT">
+                                <rect key="frame" x="121" y="296" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Boton LG">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BotonLG:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2FE-vS-JoA"/>
                                 </connections>
                             </button>
                         </subviews>
