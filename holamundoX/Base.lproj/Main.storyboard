@@ -54,7 +54,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnjmora:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fVV-X8-PqJ"/>
-                                    <action selector="botonCesar:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rRh-7W-siE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lek-N4-NfT">
                                 <rect key="frame" x="121" y="296" width="79" height="27"/>
