@@ -13,5 +13,6 @@
 - (IBAction)botonAlerta:(id)sender;
 - (IBAction)botonVaca:(id)sender;
 
+- (IBAction)btnjmora:(id)sender;
 
 @end

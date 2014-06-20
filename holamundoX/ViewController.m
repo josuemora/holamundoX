@@ -48,4 +48,16 @@
     
     
 }
+
+- (IBAction)btnjmora:(id)sender {
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Btn jmora" message:@"Hola Mundo" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+    
+    
+}
+
+
+
+
+
 @end
