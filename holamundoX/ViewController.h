@@ -17,5 +17,6 @@
 - (IBAction)btnjmora:(id)sender;
 
 - (IBAction)BotonLG:(id)sender;
+- (IBAction)btn_joshua1:(id)sender;
 
 @end

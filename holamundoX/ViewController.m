@@ -48,6 +48,11 @@
     
 }
 
+- (IBAction)btn_joshua1:(id)sender {
+    
+    exit(0);
+}
+
 - (IBAction)botonVaca:(id)sender {
     SystemSoundID soundID;
     NSString *soundFile=[[NSBundle mainBundle]
