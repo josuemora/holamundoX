@@ -19,4 +19,5 @@
 - (IBAction)BotonLG:(id)sender;
 - (IBAction)btn_joshua1:(id)sender;
 
+- (IBAction)btn_sound:(id)sender;
 @end
