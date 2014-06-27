@@ -53,6 +53,15 @@
     exit(0);
 }
 
+- (IBAction)btnSanport:(id)sender {
+    
+    NSLog(@"Boton de LG");
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Titulo Principal" message:@"Buenas las tengan..." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+    
+    
+}
+
 - (IBAction)botonVaca:(id)sender {
     SystemSoundID soundID;
     NSString *soundFile=[[NSBundle mainBundle]
