@@ -53,6 +53,16 @@
     exit(0);
 }
 
+- (IBAction)boton_muri:(id)sender {
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Btn murillo" message:@"muuuuuhhhh" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+    
+    //una linea nueva 12:31
+    
+    NSLog(@"prueba Branch Local");
+
+}
+
 - (IBAction)botonVaca:(id)sender {
     SystemSoundID soundID;
     NSString *soundFile=[[NSBundle mainBundle]
@@ -84,7 +94,6 @@
     
     //agrego linea branch joshua1
 }
-
 
 
 

@@ -18,5 +18,6 @@
 
 - (IBAction)BotonLG:(id)sender;
 - (IBAction)btn_joshua1:(id)sender;
+- (IBAction)boton_muri:(id)sender;
 
 @end
