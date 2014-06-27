@@ -53,6 +53,10 @@
     exit(0);
 }
 
+
+
+
+
 - (IBAction)botonVaca:(id)sender {
     SystemSoundID soundID;
     NSString *soundFile=[[NSBundle mainBundle]
@@ -69,6 +73,24 @@
 
 - (IBAction)btnjmora:(id)sender {
     UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Btn jmora" message:@"Hola Mundo" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+    
+    //una linea nueva 12:31
+    
+    NSLog(@"prueba Branch Local");
+    
+    
+    //agrego linea en branch de Luis
+    //agrego otra linea en el branch de luis
+    
+    //agrego linea Cesar
+    //otra mas Cesar
+    
+    //agrego linea branch joshua1
+}
+
+- (IBAction)pilar:(id)sender {
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Btn pilar" message:@"Hola Mundo" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
     [Alert show];
     
     //una linea nueva 12:31

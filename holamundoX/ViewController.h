@@ -19,4 +19,6 @@
 - (IBAction)BotonLG:(id)sender;
 - (IBAction)btn_joshua1:(id)sender;
 
+- (IBAction)pilar:(id)sender;
+
 @end
