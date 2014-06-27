@@ -53,6 +53,15 @@
     exit(0);
 }
 
+- (IBAction)boton_hora:(id)sender {
+    NSLog(@"Tiempo Local");
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Titulo Principal" message:@"Dia Nublado" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+
+    
+    
+}
+
 - (IBAction)botonVaca:(id)sender {
     SystemSoundID soundID;
     NSString *soundFile=[[NSBundle mainBundle]
