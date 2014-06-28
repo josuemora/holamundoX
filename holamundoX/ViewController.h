@@ -18,5 +18,6 @@
 
 - (IBAction)BotonLG:(id)sender;
 - (IBAction)btn_joshua1:(id)sender;
+- (IBAction)Boton_clase2_Alfonso:(id)sender;
 
 @end
