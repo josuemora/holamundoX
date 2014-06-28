@@ -53,8 +53,13 @@
     exit(0);
 }
 
+<<<<<<< HEAD
 - (IBAction)Boton_clase2_Alfonso:(id)sender {
     UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Btn Alfonso" message:@"Viva Mexico" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+=======
+- (IBAction)btn_sound:(id)sender {
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Btn jmora" message:@"Practica Toño/Chava" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+>>>>>>> clase2_chavita
     [Alert show];
 }
 
