@@ -132,6 +132,12 @@
     //agrego linea branch joshua1
 }
 
+- (IBAction)btn_clase2_josue:(id)sender {
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Titulo Principal" message:@"Buenos Dias Clase2" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+    
+    
+}
 
 
 
