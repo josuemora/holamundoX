@@ -58,6 +58,12 @@
     [Alert show];
 }
 
+- (IBAction)btn_sound:(id)sender {
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Btn jmora" message:@"Practica Toño/Chava" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+}
+
+
 - (IBAction)botonVaca:(id)sender {
     SystemSoundID soundID;
     NSString *soundFile=[[NSBundle mainBundle]
