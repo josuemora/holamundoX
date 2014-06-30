@@ -58,6 +58,17 @@
     [Alert show];
 }
 
+- (IBAction)boton_muri:(id)sender {
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Btn murillo" message:@"muuuuuhhhh" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [Alert show];
+    
+    //una linea nueva 12:31
+    
+    NSLog(@"prueba Branch Local");
+    
+}
+
+
 - (IBAction)btn_sound:(id)sender {
     UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"Btn jmora" message:@"Practica Toño/Chava" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
     [Alert show];
@@ -115,6 +126,7 @@
     
     //agrego linea branch joshua1
 }
+
 
 
 

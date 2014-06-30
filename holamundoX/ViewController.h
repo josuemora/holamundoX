@@ -19,6 +19,7 @@
 - (IBAction)BotonLG:(id)sender;
 - (IBAction)btn_joshua1:(id)sender;
 - (IBAction)Boton_clase2_Alfonso:(id)sender;
+- (IBAction)boton_muri:(id)sender;
 
 - (IBAction)btn_sound:(id)sender;
 - (IBAction)pilar:(id)sender;
