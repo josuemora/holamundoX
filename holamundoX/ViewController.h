@@ -21,4 +21,6 @@
 - (IBAction)Boton_clase2_Alfonso:(id)sender;
 
 - (IBAction)btn_sound:(id)sender;
+- (IBAction)pilar:(id)sender;
+
 @end
